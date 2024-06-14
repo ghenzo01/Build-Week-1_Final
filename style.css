@@ -1,0 +1,117 @@
+body {
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    margin-left: 150px;
+    margin-top: 90px;
+  }
+  
+  .generaldiv{
+    margin-top: 200px;
+    
+  }
+  
+  .logo img {
+    width: 230px;
+    height: 50px;
+  }
+  
+  .title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+  
+  .title p {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+  }
+  
+  .instructions {
+    margin-left: 150px;
+  }
+  
+  .instructions h1 {
+    color: #d20094;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+  }
+  
+  .instructions p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+  }
+  
+  li {
+    color: white;
+    margin: 7px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+  }
+  
+  input{
+      color: white;
+  }
+  
+  .ceckbox{
+      display: flex;
+      align-items: flex-start;
+      justify-content: start;
+      margin-left: 150px;
+      margin-top: 50px;
+     
+  
+  
+  }
+  
+  .ceckbox {
+      color: white;
+      background: none;
+      
+      
+  }
+  
+  
+  .ceckbox button{
+      margin-left: 400px;
+      width: 190px ;
+      height: 60px;
+      text-align: center;
+      background-color: #00ffff ;
+      border: none;
+      box-shadow:  0px 0px 5px 5px #00ffff;
+      color: black;
+      font-size: 25px;
+      display: inline;
+      
+      
+  
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+
+
+.rules:disabled {
+opacity: 0.3;
+
+
+}
+
+#mainCheck{
+  border: 1px solid white;
+  background-color: transparent;
+}
